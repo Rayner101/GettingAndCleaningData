@@ -5,8 +5,11 @@ link for the data used: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectf
 The first step of the script merges the training set and test set together, in 3 different sets:
 
 X - the values determined by the accelerometer
+
 Y - the activity logged
+
 S - The subject performing the activity
+
 
 Using the features.txt extracts the mean and std features only from the X dataset, naming the columns appropiately. Merges the 3 datasets into one called CleanDataSet,
 and uses the ddply function to group the data by subject and activity and calculate the mean between the values.
