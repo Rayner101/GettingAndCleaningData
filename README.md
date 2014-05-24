@@ -12,6 +12,6 @@ Coursera project assignement
 
 It will create a file called "tidy_dataset.csv" with the clean result, alternatively, you can explore the final dataframe created called "tiddy" that will appear in the workspace
 
-The final dataset should have 180 observations (30 subjects *  6 activities) and 68 columns (1 subject, 1 activity, 66 means and std). I excluded all columns that did not match the "-mean()" structure.
+The final dataset should have 180 observations (30 subjects *  6 activities) and 68 columns (1 subject, 1 activity, 33 means and 33 std). I excluded all mean columns that did not match the "-mean()" structure.
 
 _This script will load the plyr package, if is not installed, it will fail_ 
